@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    flex-direction: column;
+    height: 100vh;
+    background: pink;
+    font-family: sans-serif;
+}
+.From-box {
+    background-color: white;
+    box-shadow: 0 0 10px black;
+    pad: 15px;
+    border-radius: 8px;
+    width: 500px;
+}
+.name {
+    text-align: center;
+    color: green;
+    font-weight: 600;
+}
+div {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: green;
+}
+input [type="radio"] {
+    margin-right: 10px;
+}
+input,textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: content-box;
+    border-radius: 12px;
+}
+button {
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    width: 100px;
+    font-size: 20px;
+    transition: 2s linear;
+}
+button:hover {
+    background-color: green;
+    border: none;
+    transform: translateY(-10px);
+}
